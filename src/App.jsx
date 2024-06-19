@@ -20,13 +20,17 @@ import Gallery from "./components/08-image-gallery/gallery";
 import ProfileCard from "./components/09-profile-card/profile-card";
 import ReactBootstrap from "./components/10-bootstrap/react-bootstrap";
 import Icons from "./components/11-react-icons/react-icon";
+import Event1 from "./components/12-events/event1";
+import Event2 from "./components/12-events/event2";
+import Shop from "./components/13-shop/index";
+import Stateless from "./components/14-state/stateless";
+import State from "./components/14-state/state";
+import Counter from "./components/15-counter/counter";
 
-
-
-const App  = () => {
-
-  return <div>
-    {/* <HelloReact />
+const App = () => {
+  return (
+    <div>
+      {/* <HelloReact />
     <HelloWorld />
     <Jsx2 />
     <Jsx4 />
@@ -53,22 +57,19 @@ const App  = () => {
      shot="14"
      followers="121"
      following="25"/>
+     <ReactBootstrap/>
+     <Icons />
+     <Event1 />
+     <Event2 />
+      <Shop />
+      <Stateless/>
+       <State/>*/}
+      <Counter />
 
-     
-     <ReactBootstrap/>*/
-     <Icons/>
 
-     
-     
-     
-     }
-
-   
-    
-    
-    
-  </div>
-
+      
+    </div>
+  );
 };
 
 export default App;
